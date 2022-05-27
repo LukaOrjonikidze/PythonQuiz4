@@ -7,7 +7,7 @@ url = 'https://alta.ge/notebooks-page-0.html'
 
 file = open('laptops.csv', 'w', encoding='utf-8_sig', newline='\n')
 f_obj = csv.writer(file)
-f_obj.writerow(['Name', 'Price'])
+f_obj.writerow(['Name', 'Price GEL'])
 
 page = 1
 while page < 6:
